@@ -177,7 +177,7 @@ x="$(config_home)/update/update-first" && [ -d "$x" ] && dot_all "$x"
 . update-gem || :
 . update-gemfile || :
 . update-mix || :
-. update-pip || :
+#. update-pip || :
 . update-pod || :
 . update-podfile || :
 . update-npm || :
@@ -185,7 +185,7 @@ x="$(config_home)/update/update-first" && [ -d "$x" ] && dot_all "$x"
 . update-motion || :
 
 # Update repositories
-. update-hg-pull || :
+#. update-hg-pull || :
 . update-git-pull || :
 . update-repos || :
 
