@@ -5,6 +5,7 @@ if command -v git >/dev/null 2>&1; then
     for file in $(find "$dir" -type f); do
       for line in $(cat "$file"); do
         if [ -d "$line" ]; then
+          echo "[ git pull ] : $line"
           cd "$line" && git pull
         fi
       done
