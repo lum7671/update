@@ -1,4 +1,4 @@
-# Yum package manager for RedHat Linux, CentOS Linux, etc.
+# Yum package manager for RedHat Linux, Fedora Linux, CentOS Linux, etc.
 #
 if command -v yum >/dev/null 2>&1; then
   sudo yum --assumeyes clean
