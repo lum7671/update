@@ -145,7 +145,7 @@ if [ "$#" -eq 1 ]; then
 fi
 
 ## Run the user's own scripts
-x="$(config_home)/update/update-first" && [ -d "$x" ] && dot_all "$x"
+x="$(config_home)/update/update-run-first" && [ -d "$x" ] && run_all "$x"
 
 ## Update operating system
 . update-ubuntu-release || :
@@ -190,4 +190,4 @@ x="$(config_home)/update/update-first" && [ -d "$x" ] && dot_all "$x"
 . update-repos || :
 
 ## Run the user's own scripts
-x="$(config_home)/update/update-last" && [ -d "$x" ] && dot_all "$x"
+x="$(config_home)/update/update-run-last" && [ -d "$x" ] && run_all "$x"
