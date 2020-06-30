@@ -15,6 +15,7 @@ if [ -f "$HOME/Library/Preferences/Aquamacs Emacs/Packages/Cask" ]; then
 	cask update
 	cask clean-elc
 	cask build
+	/usr/local/bin/emacs --batch --eval '(byte-recompile-directory "$HOME/Library/Preferences/Aquamacs Emacs/Packages")'
 	sync
 fi
 
@@ -25,6 +26,7 @@ if [ -f "$HOME/.emacs.d/Cask" ]; then
 	cask update
 	cask clean-elc
 	cask build
+	/usr/local/bin/emacs --batch --eval '(byte-recompile-directory "$HOME/.emacs.d")'
 	sync
 fi
 
