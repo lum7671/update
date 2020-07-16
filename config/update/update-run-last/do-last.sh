@@ -22,12 +22,12 @@ fi
 
 
 ### Added by Zplugin's installer
-source '/Users/x/.zplugin/bin/zplugin.zsh'
-autoload -Uz _zplugin
-(( ${+_comps} )) && _comps[zplugin]=_zplugin
+source '/Users/x/.zinit/bin/zinit.zsh'
+autoload -Uz _zinit
+(( ${+_comps} )) && _comps[zinit]=_zinit
 
-zplugin self-update
-zplugin update
+zinit self-update
+zinit update
 
 
 # kymsu
