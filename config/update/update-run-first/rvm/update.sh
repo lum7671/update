@@ -1,0 +1,1 @@
+rvm get stable
