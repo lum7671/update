@@ -38,6 +38,7 @@ systems, package managers, language modules, et. al.
  * [`update`](bin/update): run all the udpate scripts.
  * [`update-apm`](bin/update-apm): update Atom Package Manager - for the GitHub Atom editor.
  * [`update-apt`](bin/update-apt): update apt-get - for Debian, Ubuntu, etc.
+ * [`update-asdf`](bin/update-apm): update asdf - for managing multiple runtimes and languages.
  * [`update-brew`](bin/update-brew): update Homebrew packages - for macOS.
  * [`update-brewfile`](bin/update-brewfile): update brew packages for macOS by using a Brewfile
  * [`update-brew-cask`](bin/update-brew-cask): update Homebrew Cask packages - for macOS apps.
@@ -52,7 +53,9 @@ systems, package managers, language modules, et. al.
  * [`update-gemfile`](bin/update-gemfile): update gem packages for Ruby by using a Gemfile.
  * [`update-mas`](bin/update-mas): update mas packages by using the Mac App Store.
  * [`update-motion`](bin/update-motion): update Ruby Motion - needs a valid paid license.
- * [`update-npm`](bin/update-npm): update Node Package Manager.
+ * [`update-npm-global`](bin/update-npm-global): update Node Package Manager via global settings.
+ * [`update-npm-local`](bin/update-npm-global): update Node Package Manager via local settings.
+ * [`update-npm-n-stable`](bin/update-npm-global): update Node Package Manager via `n` environment manager.
  * [`update-macos`](bin/update-macos): update the macOS Mac operating system - large downloads.
  * [`update-pacman`](bin/update-pacman): update pacman - for Arch Linux.
  * [`update-pip`](bin/update-pip): update Python PIP.
@@ -66,6 +69,7 @@ systems, package managers, language modules, et. al.
  * [`update-swift`](bin/update-swift): update macOS Swift language - this merely prints advice.
  * [`update-ubuntu-release`](bin/update-ubuntu-release): update Ubuntu release - for major system upgrades.
  * [`update-yay`](bin/update-yay): update Yay package manager - for Arch Linux
+ * [`update-zypper`](bin/update-zypper): update Zypper package manager - for openSUSE
 
 We welcome additions to these scripts.
 
@@ -160,8 +164,8 @@ Then install the file:
 ## Tracking
 
   * Package: UpdateCommand
-  * Version: 6.1.0
+  * Version: 6.1.1
   * Created: 2005-07-05
-  * Updated: 2020-06-18T00:17:58Z
+  * Updated: 2020-09-20T11:36:20Z
   * License: GPL
   * Contact: Joel Parker Henderson (joel@joelparkerhenderson.com)
