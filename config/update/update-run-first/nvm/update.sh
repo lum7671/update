@@ -5,6 +5,6 @@
 ) && \. "$NVM_DIR/nvm.sh"
 
 nvm install 'lts/*' --reinstall-packages-from=current
-nvm install node --reinstall-packages-from=node
 nvm install lts/* --reinstall-packages-from=default --latest-npm
 nvm install iojs --reinstall-packages-from=iojs
+nvm install node --reinstall-packages-from=node
