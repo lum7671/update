@@ -1,3 +1,5 @@
+#/usr/bin/env zsh -li
+
 (
     cd "$NVM_DIR"
     git fetch --tags origin
